@@ -19,9 +19,9 @@ cafeteria-nanacao/
 
 ## Instalación
 
-1. Descarga o clona el proyecto en tu computador.
-2. Abre una terminal en la carpeta raíz del proyecto (donde está `package.json`).
-3. Instala las dependencias:
+1. Descargar o clonar el proyecto en la computadora.
+2. Abrir la terminal en la carpeta raíz del proyecto (donde está `package.json`).
+3. Instalar las dependencias:
 
    ```bash
    npm install
@@ -29,17 +29,17 @@ cafeteria-nanacao/
 
 ## Ejecutar los tests
 
-En la misma terminal, ejecuta:
+En la misma terminal, ejecutar:
 
 ```bash
 npm test
 ```
 
-Este comando corre `jest --forceExit`, el cual levanta el servidor definido en `index.js` y ejecuta los tests contra él.
+Este comando corre `jest --forceExit`, el cual levanta el servidor definido en `index.js` y ejecuta los tests.
 
 ## Resultado esperado
 
-Deberías ver algo similar a esto en la terminal:
+Se Debería ver algo como esto en la terminal:
 
 ```
 PASS test/server.spec.js
@@ -54,10 +54,10 @@ Tests:       4 passed, 4 total
 Snapshots:   0 total
 ```
 
-Si ves **4 passed, 4 total**, la validación fue exitosa y los 4 requerimientos de la prueba están cubiertos.
+Si resulta **4 passed, 4 total**, la validación fue exitosa.
 
 
-## Requerimientos cubiertos
+## Requerimientos 
 
 | # | Requerimiento 
 |---|----------------
